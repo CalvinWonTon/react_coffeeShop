@@ -26,7 +26,7 @@ const Navbar = ({ totalItems }) => {
                 <ShoppingCart />
               </Badge>
             </IconButton>
-            <IconButton component={Link} to='/profile' aria-label='Show Profile' color='inherit'>
+            <IconButton component={Link} to='/login' aria-label='User Login' color='inherit'>
               <AccountBox />
             </IconButton>
           </div>)}

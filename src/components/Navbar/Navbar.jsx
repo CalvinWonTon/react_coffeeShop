@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
-import { ShoppingCart, Person } from '@material-ui/icons';
+import { ShoppingCart, AccountBox } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
 
 import logo from '../../assets/shop.png';
@@ -27,7 +27,7 @@ const Navbar = ({ totalItems }) => {
               </Badge>
             </IconButton>
             <IconButton component={Link} to='/profile' aria-label='Show Profile' color='inherit'>
-              <Person />
+              <AccountBox />
             </IconButton>
           </div>)}
         </Toolbar>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { commerce } from './lib/drinks';
-import { Products, Navbar, Cart } from './components';
+import { Products, Navbar, Cart, Profile } from './components';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 

@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 
 import useStyles from './profileStyles';
-import useToken from "../useToken";
-import { Login } from '../Login';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import useToken from '../useToken';
+import  Login  from '../Login/Login';
 import {Typography} from "@material-ui/core";
 
 
@@ -15,6 +16,10 @@ export default function Profile() {
         return <Login setToken={setToken} />
     }
     return(
-        <Typography variant='h2'>Dashboard</Typography>
-    );
+
+        <div className="wrapper">
+            <Typography variant='h2'>Dashboard</Typography>
+        </div>
+
+    )
 }

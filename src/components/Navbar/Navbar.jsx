@@ -6,7 +6,7 @@ import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/shop.png';
 import useStyles from './navbarStyles';
 
-const Navbar = ({ totalItems, token }) => {
+const Navbar = ({ totalItems }) => {
   const classes = useStyles();
   const location = useLocation();
 
@@ -26,7 +26,7 @@ const Navbar = ({ totalItems, token }) => {
                 <ShoppingCart />
               </Badge>
             </IconButton>
-            <IconButton component={Link} to='/profile' {...token} aria-label='User Login' color='inherit'>
+            <IconButton component={Link} to='/profile' aria-label='User Login' color='inherit'>
               <AccountBox />
             </IconButton>
           </div>)}

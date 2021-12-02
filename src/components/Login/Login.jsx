@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import useStyles from './loginStyles';
 import PropTypes from 'prop-types';
-import {Link} from "react-router-dom";
 import {Typography} from "@material-ui/core";
 
 async function loginUser(credentials) {
@@ -14,10 +13,6 @@ async function loginUser(credentials) {
         body: JSON.stringify(credentials)
     })
         .then(data => data.json())
-}
-
-Login.propTypes = {
-    setToken: PropTypes.func.isRequired
 }
 
 export default function Login( { setToken } ) {
@@ -54,4 +49,8 @@ export default function Login( { setToken } ) {
             </form>
         </div>
     )
+}
+
+Login.propTypes = {
+    setToken: PropTypes.func.isRequired
 }

@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { commerce } from './lib/drinks';
-import useToken from './components/useToken';
-import { Products, Navbar, Cart } from './components';
+import { Products, Navbar, Cart, Profile } from './components';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 const App = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
-  const { token, setToken } = useToken();
 
   const fetchDrinks = async () => {
     const { data } = await commerce.products.list();
@@ -37,10 +35,11 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Navbar totalItems={cart.total_items} token={token}/>
+        <Navbar totalItems={cart.total_items}/>
         <Routes>
           <Route path='/' element={<Products products={products} onAddToCart={handleAddToCart}/>}/>
           <Route path='/cart' element={<Cart cart={cart}/>}/>
+          <Route path='/profile' element={<Profile />}/>
         </Routes>
       </div>
     </Router>

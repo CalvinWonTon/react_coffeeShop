@@ -6,7 +6,7 @@ import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/shop.png';
 import useStyles from './navbarStyles';
 
-const Navbar = ({ totalItems }) => {
+const Navbar = ({ totalItems, token }) => {
   const classes = useStyles();
   const location = useLocation();
 

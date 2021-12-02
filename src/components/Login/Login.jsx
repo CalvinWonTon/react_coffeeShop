@@ -33,7 +33,7 @@ export default function Login( { setToken } ) {
 
     return(
         <div className={classes.loginStyleWrapper}>
-            <Typography className={classes.title} variant='h4'>Please Log In</Typography>
+            <Typography className={classes.title} variant='h4'>User Log In</Typography>
             <form onSubmit={handleSubmit}>
                 <label>
                     <Typography variant='subtitle1'>Username</Typography>

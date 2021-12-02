@@ -5,5 +5,11 @@ export default makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-},
+    },
+    title: {
+        marginTop: '10%',
+    },
+    submitButton: {
+        marginTop: '5px',
+    },
 }));

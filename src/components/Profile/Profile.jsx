@@ -15,10 +15,10 @@ export default function Profile() {
     if(!token) {
         return <Login setToken={setToken} />
     }
-    return(
 
+    return(
         <div className="wrapper">
-            <Typography variant='h2'>Dashboard</Typography>
+            <Typography variant='h2'>Profile Goes Here</Typography>
         </div>
 
     )

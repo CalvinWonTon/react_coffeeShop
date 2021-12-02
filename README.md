@@ -17,6 +17,17 @@ Although this page is incomplete, customers will be able to fill out their infor
 
 ![checkoutPage](https://user-images.githubusercontent.com/41026156/142336879-dcd18fda-0fe9-4d2d-b4e8-2c445a7aaca2.png)
 
+They're then allowed to input their payment method information.
+
+![secondCheckoutPage](https://user-images.githubusercontent.com/72165627/144455287-75c300e2-73bb-4279-ba2c-a9a4b351e7d7.png)
+
+## Login Page
+This page is currently very simple, but can be styled to be much cleaner and to match the rest of the application later on. This login page also makes use of a small, backend API to authenticate the user. Using a custom hook and a token, this would ideally let the user see their profile after clicking on the account icon and logging in. After logging in the first time, the user will stay logged in throughout the session.  The Profile page for this is a simple placeholder currently.
+
+![simpleLoginPage](https://user-images.githubusercontent.com/72165627/144456208-f0015a06-7a8a-4ccf-8f44-897b8bd721ce.png)
+
+
+
 ## Frameworks and Libraries
 - React.js
 - Commerce.js

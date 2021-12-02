@@ -26,7 +26,7 @@ const Navbar = ({ totalItems, token }) => {
                 <ShoppingCart />
               </Badge>
             </IconButton>
-            <IconButton component={Link} to='/login' aria-label='User Login' color='inherit'>
+            <IconButton component={Link} to='/profile' {...token} aria-label='User Login' color='inherit'>
               <AccountBox />
             </IconButton>
           </div>)}

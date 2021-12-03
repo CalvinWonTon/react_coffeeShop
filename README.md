@@ -35,5 +35,13 @@ This page is currently very simple, but can be styled to be much cleaner and to 
 ## Running the Code
 In order to run the code, the repository needs to be cloned. After cloning the repository, the dependencies need to be installed by running "npm install". After, the website can be started by utilizing "npm run dev"
 
+```
+git clone {...}
+git fetch
+git pull
+npm install
+npm run dev
+```
+
 ## Reason for Building this GUI
 By keeping a minimal look for the interface, customers can easily navigate the website to select a beverage and place their order. 

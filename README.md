@@ -27,17 +27,13 @@ This page is currently very simple, but can be styled to be much cleaner and to 
 ![simpleLoginPage](https://user-images.githubusercontent.com/72165627/144456208-f0015a06-7a8a-4ccf-8f44-897b8bd721ce.png)
 
 
-
 ## Frameworks and Libraries
 - React.js
 - Commerce.js
 - Material-UI
 
-## Things that need to be implemented still
-- A rewards system for customers to use to receive discounts on their beverages
-- Payment options 
-- Customer sign up page
-- Manager Stock Overview
+## Running the Code
+In order to run the code, the repository needs to be cloned. After cloning the repository, the dependencies need to be installed by running "npm install". After, the website can be started by utilizing "npm run dev"
 
 ## Reason for Building this GUI
 By keeping a minimal look for the interface, customers can easily navigate the website to select a beverage and place their order. 
